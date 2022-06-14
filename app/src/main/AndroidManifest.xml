@@ -16,16 +16,23 @@
         android:theme="@style/Theme.DemoAeropuerto"
         tools:targetApi="31">
         <activity
-            android:name=".ListaActivity"
-            android:exported="false" />
-        <activity
-            android:name=".MainActivity"
+            android:name=".ProductoActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name=".ListaActivity"
+            android:exported="true">
+
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+
         </activity>
     </application>
 

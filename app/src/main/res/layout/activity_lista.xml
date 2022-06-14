@@ -6,4 +6,34 @@
     android:layout_height="match_parent"
     tools:context=".ListaActivity">
 
+    <Button
+        android:id="@+id/btnMostrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="108dp"
+        android:text="Mostrar"
+        app:layout_constraintEnd_toEndOf="@+id/btnPeticion"
+        app:layout_constraintStart_toStartOf="@+id/btnPeticion"
+        app:layout_constraintTop_toBottomOf="@+id/btnPeticion" />
+
+    <Button
+        android:id="@+id/btnPeticion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:text="Peticion"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtListaProductos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="TextView"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="@+id/btnMostrar"
+        app:layout_constraintStart_toStartOf="@+id/btnMostrar"
+        app:layout_constraintTop_toBottomOf="@+id/btnMostrar" />
 </androidx.constraintlayout.widget.ConstraintLayout>
